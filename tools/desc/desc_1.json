@@ -1,0 +1,170 @@
+[
+  {
+    "theme": "自己紹介アート",
+    "name": "GIL_art",
+    "tagline": "名前が波打つ3Dの自己紹介",
+    "desc": "「ぎる」の文字をThree.jsの波打つシェーダーで揺らし、光の帯として描き出す。ドラッグで視点を回すと、名前が生き物のように呼吸する自己紹介アート。",
+    "tech": ["Three.js", "WebGL", "TypeScript", "Vite"],
+    "url": null
+  },
+  {
+    "theme": "自己紹介アート",
+    "name": "GIL_popup",
+    "tagline": "宇宙に浮かぶ自己紹介カード",
+    "desc": "星空を漂うポラロイド風カードにプロフィール写真を浮かべ、周囲をG・I・Lの文字が軌道を描いて周回する。3D空間そのものが名刺になる自己紹介ページ。",
+    "tech": ["Three.js", "WebGL", "TypeScript"],
+    "url": null
+  },
+  {
+    "theme": "自己紹介アート",
+    "name": "TrickArt",
+    "tagline": "正解角度でしか揃わない文字",
+    "desc": "空間に散らばった無数の粒子が、正解の角度から見た時だけ文字や画像として像を結ぶThree.js製トリックアート。ドラッグで角度をずらすと像は再び粒子へと崩れていく。",
+    "tech": ["Three.js", "TypeScript", "Vite"],
+    "url": null
+  },
+  {
+    "theme": "1日1回の大切さ",
+    "name": "FortunePop",
+    "tagline": "1日1回だけ引ける運勢",
+    "desc": "Metalで描く流動的な背景の上に、その日限りのおみくじが浮かび上がる。結果はカード画像として共有でき、履歴が日々の運勢の記録になる。",
+    "tech": ["SwiftUI", "Metal", "SwiftData"],
+    "url": null
+  },
+  {
+    "theme": "1日1回の大切さ",
+    "name": "OneRecord",
+    "tagline": "今日をレコードに刻む一曲",
+    "desc": "その日の曲名とひとことの感想をレコード盤の意匠に焼き付け、指で再生すれば盤面が回り出す。1日1枚だけ増えていく、音楽の日記。",
+    "tech": ["SwiftUI", "Swift"],
+    "url": null
+  },
+  {
+    "theme": "1日1回の大切さ",
+    "name": "OneScene",
+    "tagline": "今日の一枚が映画になる",
+    "desc": "アプリ内カメラで撮った1枚の写真から、AIがジャンルとタイトルを考えて映画ポスターに仕立てる。日常の一瞬が、その日限りの主演作品として残る。",
+    "tech": ["SwiftUI", "OpenAI API", "Swift"],
+    "url": null
+  },
+  {
+    "theme": "予定を楽しく！",
+    "name": "CountdownPoster",
+    "tagline": "予定までの日数を貼るポスター",
+    "desc": "Googleカレンダーの予定を、残り日数に応じて絵柄が変わる9:16のポスターに変換するSwiftUIアプリ。予定の種類や場所からおすすめスポットまで自動で提案する。",
+    "tech": ["SwiftUI", "Google Calendar API", "OpenAI API"],
+    "url": null
+  },
+  {
+    "theme": "予定を楽しく！",
+    "name": "TicketDays",
+    "tagline": "予定を指でちぎって入場する",
+    "desc": "Googleカレンダーの予定をチケットのデザインに変換し、点線を指でなぞって切り離すと入場済みの半券としてチケット帳に残る。予定をこなす行為そのものを演出に変えるアプリ。",
+    "tech": ["SwiftUI", "SwiftData", "Google Calendar API"],
+    "url": null
+  },
+  {
+    "theme": "予定を楽しく！",
+    "name": "Yoin",
+    "tagline": "予定の余韻を冊子にする",
+    "desc": "終わったカレンダーの予定を、写真とひとことから表紙・写真・感想・エンドロールを持つミニ冊子として自動生成する。横にスワイプしてめくり、思い出をパンフレットのように読み返すiPhoneアプリ。",
+    "tech": ["SwiftUI", "Supabase", "Google Calendar API"],
+    "url": null
+  },
+  {
+    "theme": "音",
+    "name": "EchoClock",
+    "tagline": "環境音で表情を変える時計",
+    "desc": "マイクが拾う周囲の音量や高低をWeb Audio APIで解析し、針が歪んだり波紋が広がったりするアナログ時計。静けさや喧騒、音楽までも時計の表情に変換する。",
+    "tech": ["Next.js", "Web Audio", "Framer Motion"],
+    "url": null
+  },
+  {
+    "theme": "音",
+    "name": "SoundMap",
+    "tagline": "街の音を地図に録音する",
+    "desc": "気になる音をその場で録音し、波形を色とりどりの流体ブロブとして描き地図上にピン留めする。再生するとブロブが音量に合わせて脈打つ、街の音のコレクション。",
+    "tech": ["SwiftUI", "MapKit", "SwiftData"],
+    "url": null
+  },
+  {
+    "theme": "音",
+    "name": "VoiceCity",
+    "tagline": "声の高さで街が生まれる",
+    "desc": "数秒しゃべった声のピッチやリズム、間の取り方を解析し、そのまま高層ビル群のスカイラインへと変換するWebアプリ。同じ声は二つとないので、生まれる街も一期一会。",
+    "tech": ["Next.js", "Web Audio", "Canvas"],
+    "url": null
+  },
+  {
+    "theme": "データの可視化",
+    "name": "ReceiptCity",
+    "tagline": "レシートで街が育っていく",
+    "desc": "レシートの支出記録を読み取り、カテゴリや継続日数に応じて街を発展させる家計簿プロトタイプ。2.5D風の街を歩くように眺めながら、自分の消費の癖を発見できる。",
+    "tech": ["React", "Vite", "TypeScript"],
+    "url": null
+  },
+  {
+    "theme": "データの可視化",
+    "name": "ScreenCreature",
+    "tagline": "スマホの使いすぎが顔に出る",
+    "desc": "Screen Timeで計測した利用時間とアプリの傾向から、SpriteKitで動くキャラクターの機嫌が変化する。ホーム画面のウィジェットにも生息し、使いすぎを生き物のご機嫌として可視化する。",
+    "tech": ["SwiftUI", "SpriteKit", "WidgetKit"],
+    "url": null
+  },
+  {
+    "theme": "データの可視化",
+    "name": "grass_to_art",
+    "tagline": "GitHubの草を部屋に飾る",
+    "desc": "GitHubの1年分のコントリビューショングラフを、抽象幾何や都市、星空など4スタイルのアートポスターに変換するWebサービス。印刷用の高解像度SVG・PDFでそのまま書き出せる。",
+    "tech": ["Next.js", "Supabase", "TypeScript"],
+    "url": null
+  },
+  {
+    "theme": "ちょっとだけ便利な拡張機能",
+    "name": "LoginClue",
+    "tagline": "前回のログイン方法を思い出す",
+    "desc": "パスワードは保存せず、どのボタンでログインしたかだけを記録するChrome拡張機能。次に同じサイトを訪れると、Googleでしたのかメールでしたのかをそっと教えてくれる。",
+    "tech": ["Chrome Extension", "React", "TypeScript"],
+    "url": null
+  },
+  {
+    "theme": "ちょっとだけ便利な拡張機能",
+    "name": "SearchCoach",
+    "tagline": "検索ワードを裏でコーチする",
+    "desc": "Google検索結果の横にAIが検索クエリの改善案を提示するChrome拡張機能。個人情報が含まれる場合は自動でブロックし、ルールベースの提案に切り替える。",
+    "tech": ["Chrome Extension", "React", "TypeScript"],
+    "url": null
+  },
+  {
+    "theme": "ちょっとだけ便利な拡張機能",
+    "name": "SeenIt",
+    "tagline": "前に見たページを思い出させる",
+    "desc": "閲覧したページをこっそり記録し、再訪時やGoogle検索結果に「前に見た」バッジを表示するChrome拡張機能のMVP。トラッキングパラメータを除いてURLを正規化し、重複表示を防ぐ。",
+    "tech": ["Chrome Extension", "TypeScript"],
+    "url": null
+  },
+  {
+    "theme": "Webで使えるライブラリ",
+    "name": "KineticTitle",
+    "tagline": "映画のように動く見出し",
+    "desc": "クラスを1つ付けるだけで、見出しがぼかしから浮かぶ・グリッチする・一文字ずつ現れるなど映画やMVのような動きを付けられるCSS/JSライブラリ。React版やスクロール連動発火にも対応する。",
+    "tech": ["CSS", "JavaScript", "React"],
+    "url": null
+  },
+  {
+    "theme": "Webで使えるライブラリ",
+    "name": "SceneScroll",
+    "tagline": "スクロールで場面転換する",
+    "desc": "スクロール量をカメラワークに変換し、フェードやズーム、カメラ移動で場面が切り替わっていくVanilla JSライブラリ。シーンデータを並べるだけで、映画のようなランディングページが作れる。",
+    "tech": ["JavaScript", "CSS"],
+    "url": null
+  },
+  {
+    "theme": "Webで使えるライブラリ",
+    "name": "ViewportFrames",
+    "tagline": "スクショを実機の枠で見せる",
+    "desc": "スクリーンショットや動画をiPhoneやMacBook、ブラウザウィンドウの枠で包んで見せるCSSライブラリ。傾きや光沢、スクロール可能な画面などの演出をクラス1つで付け加えられる。",
+    "tech": ["CSS"],
+    "url": null
+  }
+]

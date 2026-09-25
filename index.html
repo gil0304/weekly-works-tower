@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>作品塔 — 毎週作品</title>
+  <meta name="description" content="毎週1テーマ3作品、19週57作品を1本の塔に積み上げた3Dアーカイブ。" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600&family=Zen+Kaku+Gothic+New:wght@400;500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="./src/style.css" />
+</head>
+<body>
+  <canvas id="gl"></canvas>
+  <div id="scroll"></div>
+
+  <header class="hud hud-top">
+    <a class="brand" href="#top"><span class="brand-ja">作品塔</span><span class="brand-en">WEEKLY WORKS TOWER</span></a>
+    <div class="counter"><span id="counter-week">WEEK 01</span><span class="sep">/</span><span id="counter-work">01</span><span class="dim"> of 57</span></div>
+  </header>
+
+  <nav id="index" class="hud" aria-label="テーマ目次"></nav>
+
+  <section id="intro" class="hud overlay-center">
+    <p class="eyebrow">毎週1テーマ、3作品。</p>
+    <h1>作品塔</h1>
+    <p class="lead">19週で積み上げた57作品を、1本の塔にしました。<br/>スクロールで登っていきます。</p>
+    <div class="scroll-hint"><span></span>SCROLL</div>
+  </section>
+
+  <aside id="caption" class="hud">
+    <p class="cap-eyebrow"><span id="cap-week"></span><span class="cap-theme" id="cap-theme"></span></p>
+    <h2 id="cap-name"></h2>
+    <p class="cap-tagline" id="cap-tagline"></p>
+    <p class="cap-desc" id="cap-desc"></p>
+    <div class="cap-meta">
+      <span class="badge" id="cap-kind"></span>
+      <span class="tech" id="cap-tech"></span>
+    </div>
+    <div class="cap-links" id="cap-links"></div>
+  </aside>
+
+  <section id="outro" class="hud overlay-center">
+    <p class="eyebrow">19 WEEKS · 57 WORKS</p>
+    <h1>全19段</h1>
+    <div id="outro-grid" class="outro-grid"></div>
+    <button id="back-top" class="ghost">塔の足元へ戻る</button>
+  </section>
+
+  <div id="loading" class="hud"><div class="bar"><i></i></div><span>塔を建てています…</span></div>
+
+  <script type="module" src="./src/main.js"></script>
+</body>
+</html>

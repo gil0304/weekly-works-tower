@@ -1,0 +1,216 @@
+[
+  {
+    "theme": "Webでできる可能性",
+    "name": "WebKeynote",
+    "tagline": "発表という行為をWebに再現",
+    "desc": "Keynoteの発表体験をブラウザだけで再構築したステージシステムだ。発表者ノートや記録音声、操作イベントは全ウインドウへ即時反映され、スマホがそのままRemoteになる。",
+    "tech": [
+      "Vite",
+      "React",
+      "TypeScript",
+      "WebSocket"
+    ],
+    "url": "https://web-presentation-studio.lolipop-now.app"
+  },
+  {
+    "theme": "Webでできる可能性",
+    "name": "WebVideoStudio",
+    "tagline": "ブラウザだけで本当に編集できる",
+    "desc": "Premiere風の操作体系を持つ、ブラウザ内で本当に動く映像編集ソフトだ。全フレームをCanvasで毎回再合成し、音声もサンプル単位で合成してMP4まで書き出せる。",
+    "tech": [
+      "React",
+      "Canvas",
+      "WebCodecs",
+      "Web Audio API"
+    ],
+    "url": "https://web-video-studio.lolipop-now.app"
+  },
+  {
+    "theme": "Webでできる可能性",
+    "name": "WebityCubeAdventure",
+    "tagline": "ブラウザの中にUnityがまるごと",
+    "desc": "Hierarchy・Inspector・Scene ViewまでブラウザだけでUnity風エディタを再現した作品。独自トランスパイラでC#風コードを解析・実行し、その場で3Dゲームを編集して遊べる。",
+    "tech": [
+      "WebGL2",
+      "JavaScript"
+    ],
+    "url": "https://webity-cube-adventure.lolipop-now.app"
+  },
+  {
+    "theme": "Astra使ってみた",
+    "name": "DisasterCitySimulator",
+    "tagline": "架空都市が壊れて避難する街",
+    "desc": "架空都市AOBA CITYを舞台に、地震や津波など5種の災害を選べる3Dシミュレーターだ。建物倒壊・延焼・道路閉塞・徒歩避難が同じ街の上で連動し、同じシードなら同じ結果が再現される。",
+    "tech": [
+      "React",
+      "Three.js",
+      "TypeScript",
+      "Zustand"
+    ],
+    "url": "https://disaster-city.lolipop-now.app"
+  },
+  {
+    "theme": "Astra使ってみた",
+    "name": "EPOCH",
+    "tagline": "文明の一生を宇宙から眺める",
+    "desc": "文明の歴史を年表ではなく、ひとつの惑星の景色として眺めるシミュレーターだ。集落から惑星文明、そして自然回帰までを地理と資源と政治の相互作用から毎回異なる歴史として生成する。",
+    "tech": [
+      "React Three Fiber",
+      "Three.js",
+      "TypeScript"
+    ],
+    "url": "https://epoch.lolipop-now.app"
+  },
+  {
+    "theme": "Astra使ってみた",
+    "name": "PlanetSimulation",
+    "tagline": "地球に似た他人の惑星を観測",
+    "desc": "プレート運動や気候、都市の夜間光までひとつの惑星モデルから動かす観測シミュレーターだ。時間を進めたり巻き戻したりしながら、自然の時間と文明の時間が同じ球体で重なる様を見せる。",
+    "tech": [
+      "React Three Fiber",
+      "Three.js",
+      "TypeScript"
+    ],
+    "url": "https://planet-simulation.lolipop-now.app"
+  },
+  {
+    "theme": "Metal使った",
+    "name": "GRAVITYVESSEL",
+    "tagline": "傾けるだけで揺れる重力の器",
+    "desc": "端末を傾けた重力方向へ流体が揺れ動く、Metal製の一枚のガラス容器だ。操作用UIは一切なく、CoreMotionの重力ベクトルをそのまま流体力に変換し、上下反転でハプティックが鳴る。",
+    "tech": [
+      "Metal",
+      "MetalKit",
+      "CoreMotion",
+      "Swift"
+    ],
+    "url": null
+  },
+  {
+    "theme": "Metal使った",
+    "name": "LiquidWorld",
+    "tagline": "現実の景色が指先で液体に",
+    "desc": "背面カメラが映す現実の景色に触れると、その場から流体エフェクトが広がるMetal製の作品だ。生成した揺らぎはそのまま写真として保存でき、日常の風景を液状のキャンバスに変える。",
+    "tech": [
+      "Metal",
+      "MetalKit",
+      "AVFoundation",
+      "Swift"
+    ],
+    "url": null
+  },
+  {
+    "theme": "Metal使った",
+    "name": "MeltMemory",
+    "tagline": "触れた場所から写真が溶ける",
+    "desc": "選んだ写真がタッチした場所から溶けて流体になっていく、儚さがテーマのMetal作品だ。放っておけば記憶は消えていくが、触れて「save」を押した瞬間だけコレクションに残せる。",
+    "tech": [
+      "Metal",
+      "MetalKit",
+      "PhotosUI",
+      "Swift"
+    ],
+    "url": null
+  },
+  {
+    "theme": "AEとか使ってみた",
+    "name": "404-Empty-Interface",
+    "tagline": "存在しないページが崩れていく",
+    "desc": "RGBがずれるグリッチ演出で描く404ページのモーショングラフィックスだ。ページを構成するUIパーツが次々と波打つワイヤーフレームへ崩壊し、存在しない空虚さを視覚化する。",
+    "tech": [
+      "After Effects"
+    ],
+    "url": null
+  },
+  {
+    "theme": "AEとか使ってみた",
+    "name": "Liquid_Portal_Loading",
+    "tagline": "脈打つ液状のポータルが開く",
+    "desc": "有機的に脈動する液状の輪が二重に絡み合うローディングアニメーションだ。星空を背景に煙のような質感が中心で渦巻き続け、ポータルが開く直前の緊張感を演出する。",
+    "tech": [
+      "After Effects"
+    ],
+    "url": null
+  },
+  {
+    "theme": "AEとか使ってみた",
+    "name": "Typhoon_Core",
+    "tagline": "気象速報ふうの台風の目",
+    "desc": "気象速報を思わせる台風接近HUDのモーショングラフィックスだ。暴風域を示す赤い弧やStorm Trackの文字、雨脚の斜線とともに、台風の目をシアンのリングで描き出す。",
+    "tech": [
+      "After Effects"
+    ],
+    "url": null
+  },
+  {
+    "theme": "iPhoneをコントローラへ",
+    "name": "CarGame",
+    "tagline": "スマホがそのままハンドルに",
+    "desc": "スマホを横に傾けてハンドル代わりにする、Unity製マルチプレイレースゲームだ。PC画面にコース全体と全員の車を表示し、各自のスマホはドライバー視点でアクセルとブレーキを操作する。",
+    "tech": [
+      "Unity",
+      "C#",
+      "WebSocket"
+    ],
+    "url": null
+  },
+  {
+    "theme": "iPhoneをコントローラへ",
+    "name": "MotionKey",
+    "tagline": "鍵のようにiPhoneを回す認証",
+    "desc": "ログイン要求をFace IDで確認した後、スマホを鍵のように右へ回すと承認される二段階認証システムだ。回転はあくまで操作の実感を作る演出で、本体は端末内のEd25519署名による本物の暗号認証。",
+    "tech": [
+      "SwiftUI",
+      "Next.js",
+      "CoreMotion",
+      "WebSocket"
+    ],
+    "url": null
+  },
+  {
+    "theme": "iPhoneをコントローラへ",
+    "name": "MotionSaber",
+    "tagline": "iPhoneが2本のライトセーバーに",
+    "desc": "2台のiPhoneをライトセーバーの柄に見立てて戦う、Unity製の左右分割対戦ゲームだ。実機の姿勢をクォータニオンで送信し、剣同士が交わる角度からパリィや命中をリアルタイム判定する。",
+    "tech": [
+      "Unity",
+      "C#",
+      "CoreMotion",
+      "WebSocket"
+    ],
+    "url": null
+  },
+  {
+    "theme": "広告にありそうなゲーム",
+    "name": "DrawFallEscape",
+    "tagline": "線を描いて落下する自分を守る",
+    "desc": "自由落下するボールを指で描いた線に受け止めさせながら、迫る障害物をかわし続けるハイパーカジュアルゲームだ。落ちてくる自分や敵の見た目は、端末の写真に差し替えられる。",
+    "tech": [
+      "Unity",
+      "C#"
+    ],
+    "url": null
+  },
+  {
+    "theme": "広告にありそうなゲーム",
+    "name": "SoreSokoJanai",
+    "tagline": "そこじゃない、その仕分け先",
+    "desc": "ベルトコンベアで流れてくるアイテムを左右にスワイプして正しいゴミ箱へ仕分けるゲームだ。コンボが伸びるほどベルトの速度と出現間隔が増していき、ミス3回で即終了する。",
+    "tech": [
+      "Unity",
+      "C#"
+    ],
+    "url": null
+  },
+  {
+    "theme": "広告にありそうなゲーム",
+    "name": "SortBurger",
+    "tagline": "時間内にレシピ通り積み上げろ",
+    "desc": "制限時間内に指定レシピの通りへ具材を積み上げていくバーガー作りゲームだ。焦げたパティや石などの妨害食材も紛れ込み、間違えた瞬間はお客のリアクションで即座にバレる。",
+    "tech": [
+      "Unity",
+      "C#"
+    ],
+    "url": null
+  }
+]

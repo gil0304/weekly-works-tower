@@ -1,0 +1,230 @@
+[
+  {
+    "theme": "Minecraft Mod",
+    "name": "Ancient-Player-Ruins-Mod",
+    "tagline": "廃墟に眠る滅びた文明",
+    "desc": "地下・海中・空に隠れた廃都市をコマンドで発見しテレポートして探索できるFabric MOD。徘徊するゾンビ型の守護者と、通貨や物資を取引する住人ゾンビが世界観を彩る。",
+    "tech": [
+      "Java",
+      "Fabric",
+      "Minecraft Forge/Fabric"
+    ],
+    "url": null
+  },
+  {
+    "theme": "Minecraft Mod",
+    "name": "Minecraft-Web-Studio-Mod",
+    "tagline": "ゲーム内PCでサイトを作る",
+    "desc": "Minecraft世界に置いたPCを右クリックすると、React製のミニOSがMCEFブラウザで開く。Monacoエディタでコードを書きMonitorへ映せば、mineweb://プレビューがゲーム内で確認できる。",
+    "tech": [
+      "Java",
+      "Fabric",
+      "React",
+      "Vite"
+    ],
+    "url": null
+  },
+  {
+    "theme": "Minecraft Mod",
+    "name": "villager-architect-request-mod",
+    "tagline": "村人から届く建築の依頼",
+    "desc": "村の建築事務所に届く村人からの依頼に応え、指定エリア内へ実際にブロックを積んで建物を建てる。図書館や井戸などの完成度をコード側で自動採点し、評価に応じて評判称号が上がる。",
+    "tech": [
+      "Java",
+      "Fabric",
+      "Minecraft Forge/Fabric"
+    ],
+    "url": null
+  },
+  {
+    "theme": "夏",
+    "name": "NagashiStudio",
+    "tagline": "竹を組んで作る流しそうめん",
+    "desc": "竹・給水口・器を3D空間に配置し、そうめんや薬味が流れる様子を眺めるWebシミュレーター。水は1次元開水路モデルで解き、そうめんは竹を流れ端で自由落下するハイブリッド物理で動く。",
+    "tech": [
+      "Three.js",
+      "TypeScript",
+      "Vite",
+      "WebGL"
+    ],
+    "url": null
+  },
+  {
+    "theme": "夏",
+    "name": "SummerBottle",
+    "tagline": "一日を瓶に閉じ込める夏の記録",
+    "desc": "写真・場所・天気・一言からその日を表す3Dの記念ボトルをVisionで自動生成するiPhoneアプリ。栓を開けると環境音と言葉が流れ、回転・傾け・シェイクして鑑賞できる。",
+    "tech": [
+      "Swift",
+      "SwiftUI",
+      "RealityKit",
+      "ARKit"
+    ],
+    "url": null
+  },
+  {
+    "theme": "夏",
+    "name": "SunGlass",
+    "tagline": "光を集めて描く夏のステンドグラス",
+    "desc": "ARKitで周囲の光の強さと色温度を計測し、少しずつステンドグラス作品へ焼き付けるiPhoneアプリ。1日90秒までの反映上限と安全停止を備え、完成作品はARで実寸大に配置できる。",
+    "tech": [
+      "Swift",
+      "SwiftUI",
+      "ARKit",
+      "RealityKit"
+    ],
+    "url": null
+  },
+  {
+    "theme": "夏祭り",
+    "name": "Natsumatsuri",
+    "tagline": "コードで作る自分だけの夏祭り",
+    "desc": "独自言語Matsuri Scriptで屋台や装飾を記述しRUNすると、Unity製3D空間に祭りが実行時生成されるシミュレーション。NPCが来場して並び買い、22時に売上が集計される。",
+    "tech": [
+      "Unity",
+      "C#",
+      "HDRP"
+    ],
+    "url": null
+  },
+  {
+    "theme": "夏祭り",
+    "name": "hanabi",
+    "tagline": "みんなの落書きが夜空に打ち上がる",
+    "desc": "スマホで描いた花火の線を、大型スクリーンの夜空へ本物の打ち上げ花火として再現する参加型インスタレーション。線はThree.jsで数百〜千数百の粒子に変換され、音も含め全てプロシージャル生成される。",
+    "tech": [
+      "Next.js",
+      "Three.js",
+      "Canvas",
+      "WebAudio"
+    ],
+    "url": null
+  },
+  {
+    "theme": "夏祭り",
+    "name": "kingyosukui",
+    "tagline": "スマホをポイに変える金魚すくい",
+    "desc": "画面のボタンは一切なく、スマホ本体を傾け下げ持ち上げる身体動作だけで壁一面の巨大水槽の金魚をすくうデジタル金魚すくい。最大4人がQRコードだけで参加でき、捕まえた金魚は自分のスマホの中で泳ぎ続ける。",
+    "tech": [
+      "Next.js",
+      "WebGL",
+      "DeviceMotion"
+    ],
+    "url": null
+  },
+  {
+    "theme": "七夕",
+    "name": "DigitalTanzakuWall",
+    "tagline": "願いごとが大画面に舞う短冊",
+    "desc": "スマホから書いた願いごとが、会場の大画面にデジタル短冊として次々と飾られていく参加型メッセージウォール。投稿が増えるほど星と光の粒が増え、古い短冊は奥のロープへ流れていく。",
+    "tech": [
+      "Vite",
+      "TypeScript",
+      "Supabase"
+    ],
+    "url": null
+  },
+  {
+    "theme": "七夕",
+    "name": "TanabataSky",
+    "tagline": "天の川越しに向き合う二つの星",
+    "desc": "ベガとアルタイルを実際の赤経赤緯・等級・スペクトル型で配置し、UIなしで漂うカメラと瞬く星だけを見せるWeb作品。天の川の密度とまれに横切る流れ星が、七夕の物語を静かな距離感で表す。",
+    "tech": [
+      "Three.js",
+      "TypeScript",
+      "Vite",
+      "WebGL"
+    ],
+    "url": "https://tanabata-sky.lolipop-now.app"
+  },
+  {
+    "theme": "七夕",
+    "name": "WishStarGenerator",
+    "tagline": "願いごとが一つの星になる",
+    "desc": "入力した願いごとをカテゴリ・文字数・乱数シードから固有の色や粒子・光の輪を持つ星として夜空に生成するWeb作品。生成した星は縦長のPNG画像として保存でき、7カテゴリごとに輝き方が変わる。",
+    "tech": [
+      "Three.js",
+      "TypeScript",
+      "Vite"
+    ],
+    "url": null
+  },
+  {
+    "theme": "キャンプ",
+    "name": "BeatSplitter",
+    "tagline": "焚き火に合わせて叩くリズムゲーム",
+    "desc": "キャンプをテーマにしたオリジナル楽曲に合わせてノーツを捌くリズムアクションゲーム。難易度別譜面とPerfect/Great/Good判定、キャリブレーション機能まで備える。",
+    "tech": [
+      "React",
+      "TypeScript",
+      "Zustand",
+      "Vite"
+    ],
+    "url": null
+  },
+  {
+    "theme": "キャンプ",
+    "name": "FireKeeperWeb",
+    "tagline": "薪をくべて火を育てる焚き火育成",
+    "desc": "薪を組み火をつけ、うちわで風を送って焚き火を育てる物理シミュレーションWebアプリ。Rapierの物理演算で薪が崩れ煙が舞い、目標出力や燃焼維持時間などのチャレンジに挑める。",
+    "tech": [
+      "React Three Fiber",
+      "Three.js",
+      "Rapier",
+      "Zustand"
+    ],
+    "url": null
+  },
+  {
+    "theme": "キャンプ",
+    "name": "KawaguchikoWeatherScape",
+    "tagline": "河口湖畔で富士山と天候を眺める",
+    "desc": "河口湖北岸のキャンプサイトから、湖越しの富士山を望む3D空間を歩き回れる天候観察シミュレーター。36種類の天候・四季・時刻を切り替えられ、テクスチャを使わず全て手続き的に生成される。",
+    "tech": [
+      "React Three Fiber",
+      "Three.js",
+      "Zustand",
+      "WebAudio"
+    ],
+    "url": null
+  },
+  {
+    "theme": "人のMA",
+    "name": "AheadofMe",
+    "tagline": "画面の中の私は少し先を歩く",
+    "desc": "カメラの前に立つ鑑賞者の動きをMediaPipeで認識し、画面内の自分の像がわずかに先回りして動くインタラクティブ作品。UIや実写を一切表示せず、全処理を端末内で完結させる。",
+    "tech": [
+      "MediaPipe",
+      "TypeScript",
+      "Vite",
+      "WebGL"
+    ],
+    "url": null
+  },
+  {
+    "theme": "人のMA",
+    "name": "RemainingBody",
+    "tagline": "去った後も残り続ける身体の影",
+    "desc": "鑑賞者の身体をリアルタイム認識し、16秒・36秒前の残像がモノクロのシルエットとして空間を歩き続けるメディアアート。残像は彫像のように凍って現れたのち60秒かけて溶け崩れる。",
+    "tech": [
+      "MediaPipe",
+      "Three.js",
+      "WebGL",
+      "TypeScript"
+    ],
+    "url": null
+  },
+  {
+    "theme": "人のMA",
+    "name": "WhileYouAreHere",
+    "tagline": "人がいるだけ育っていく無人の海",
+    "desc": "何もない海に鑑賞者が立つと足元から島が生まれ、集まり方によって橋や湖、光の回廊が現れるメディアアート。長く留まるほど樹が根づき森へ育ち、去れば数分かけて静かに海へ還っていく。",
+    "tech": [
+      "MediaPipe",
+      "Three.js",
+      "WebGL",
+      "TypeScript"
+    ],
+    "url": null
+  }
+]
