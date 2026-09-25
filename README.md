@@ -36,10 +36,15 @@ npm run build      # dist/ に静的ファイルを出力
 npm run data       # 録画・サムネイルの同期と src/works.json の再生成
 ```
 
-## GitHub Pages への公開
+## 公開
 
-`vite.config.js` は `base: './'` なので、`dist/` の中身をそのままリポジトリの Pages 用ブランチ(または `docs/`)に置けば動きます。
-動画を含めて約 80MB なので、リポジトリに入れる場合は Git LFS を使うか、動画だけ別ホストに置いて `src/works.json` の `video` を差し替えてください。
+公開先: https://gil0304.github.io/weekly-works-tower/ (リポジトリ: https://github.com/gil0304/weekly-works-tower)
+
+`main` に push すると GitHub Actions(`.github/workflows/deploy.yml`)がビルドして GitHub Pages に配置します。動画は `public/captures/` ごとリポジトリに入れています(合計約 80MB、1ファイル最大 9MB)。
+
+```bash
+npm run data && git add -A && git commit -m "更新" && git push
+```
 
 ## 構成
 
